@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style-forms.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-image left">
+        <div class="logo">
+          <img src="img/Nomad'sNestLogo.jpg" alt="Nomad's Nest Logo" />
+          <h1 class="logo-name">Nomad's Nest</h1>
+        </div>
+      </div>
+      <div class="right">
+        <div class="text">
+          <p>Sign up for our email newsletter for the latest deals and promotions.</p>
+          <p>Sign up <em>now</em></p>
+          <p>You <em>know</em> you want to</p>
+        </div>
+        <form action="#" method="POST">
+          <div class="form form-left">
+            <h1>Welcome to the Fam</h1>
+
+            <div class="input">
+              <label for="first-name">First Name</label>
+              <input type="text" name="firstname" placeholder="First Name" required />
+            </div>
+
+            <div class="input">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="lastname" placeholder="Last Name" required />
+            </div>
+
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+
+            <div class="input">
+              <label for="phone">Phone Number</label>
+              <input type="tel" name="phone" placeholder="Phone Number" required />
+            </div>
+
+            <div class="input">
+              <label for="password">Password</label>
+              <input type="password" name="password" placeholder="Password" required />
+            </div>
+
+            <div class="input">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" name="confirm-password" placeholder="Confirm Password" required />
+            </div>
+          </div>
+
+          <div class="btn-left button"><button type="submit">Create Account</button></div>
+        </form>
+        <div class="login">Already have an account? <a href="#">Login</a></div>
+      </div>
+    </div>
+  </body>
+</html>
