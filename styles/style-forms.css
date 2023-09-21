@@ -39,7 +39,6 @@ body {
 
 .left{
     flex-basis: 40%;
-    border: 5px red solid;
 }
 
 
@@ -86,7 +85,6 @@ body {
 /* Right Side  */
 .right{
     flex-basis: 60%;
-    border: 5px blue solid;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
