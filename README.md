@@ -1,5 +1,5 @@
 # Odin-Form-Sign-Up
-[Odin Project: Sign Up Form](https://mplefort.github.io/Odin-Form-Sign-Up)
+[Odin Project: Sign Up Form](https://mplefort.github.io/Odin-Form-Sign-Up/)
 
 Step 1: Set up and planning
 Set up your git repository (refer to past projects if you need a refresher).
